@@ -1,6 +1,12 @@
 # Data Structures
 An attempt to write various STL classes. DISCLAIMER: These classes are in now way meant to be as good as the STL classes that they mimic or even completely correct. This is purely used as a bit of fun and/or a learning exercise. Personally I find STL code hard to read, so this is partly an attempt to demystify the STL classes and the way they are written. All classes are kept in the `ds` namespace.
 
+# Build and Run Tests
+- Make sure the googletest submodule has been initialised and cloned
+- `cd vendor\googletest` and then run `cmake .`
+- This will generate Visual Studio project files
+- Open `ALL_BUILD.vcxproj` in Visual Studio and build all configurations of the `ALL_BUILD` project
+
 # Structures Available
 
 ## array
