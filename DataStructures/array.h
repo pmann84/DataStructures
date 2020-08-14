@@ -18,8 +18,15 @@ namespace ds
       TYPE* data() { return m_data; }
       const TYPE* data() const { return m_data; }
 
+      void fill(const TYPE& value)
+      {
+         std::fill_n(m_data, SIZE, value);
+      }
+
+      // TODO: at - checks range
       // TODO: Iterators
       // TODO: Swap
+      // TODO: Different constructors
 
    private:
       TYPE m_data[SIZE];
